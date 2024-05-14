@@ -32,5 +32,5 @@ app.use('/', route);
 app.use('/api', route);
 
 app.listen(PORT,()=>{
-    console.log(`sawadhyatmik started at port http://localhost:${port}`);
+    console.log(`sawadhyatmik started at port`+ PORT);
 });
